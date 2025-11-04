@@ -1,9 +1,10 @@
-image: registry.gitlab.com/pages/hugo:latest
+image: registry.gitlab.com/pages/hugo/hugo_extended:latest
 
 pages:
   stage: deploy
   script:
-    - git submodule update --init --recursive
+    - hugo mod get -u ./...
+    - hugo mod tidy
     - hugo --minify
   artifacts:
     paths:
