@@ -1,8 +1,11 @@
-image: registry.gitlab.com/pages/hugo/hugo_extended:latest
+image: golang:1.25-alpine
 
 pages:
   stage: deploy
   script:
+    - apk add --no-cache git bash
+    - go install github.com/gohugoio/hugo@latest
+    - export PATH=$PATH:$(go env GOPATH)/bin
     - hugo mod get -u ./...
     - hugo mod tidy
     - hugo --minify
