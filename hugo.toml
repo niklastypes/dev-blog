@@ -1,0 +1,4 @@
+theme = "congo"
+baseURL = "https://niklasbaier.gitlab.io"
+title = "Dev Blog"
+languageCode = 'en-us'
