@@ -1,8 +1,0 @@
-baseURL = "https://niklasbaier.gitlab.io"
-title = "Dev Blog"
-languageCode = 'en-us'
-
-[module]
-  [[module.imports]]
-    path = "github.com/jpanther/congo/v2"
-
