@@ -11,9 +11,9 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Categories"
-  pageRef = "categories"
-  weight = 20
+  name = "Projects"
+  pageRef = "projects"
+  weight = 10
 
 [[main]]
   name = "About"
