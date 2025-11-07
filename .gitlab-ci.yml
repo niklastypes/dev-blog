@@ -1,14 +1,19 @@
-image: golang:1.25-alpine
+image: ubuntu:latest
+
+variables:
+  HUGO_VERSION: "0.152.2"
+  HUGO_ENV: production
 
 pages:
   stage: deploy
+  before_script:
+    - apt-get update && apt-get install -y curl git golang-go
+    - curl -L https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz -o hugo.tar.gz
+    - tar -xzf hugo.tar.gz
+    - mv hugo /usr/local/bin/hugo
+    - hugo version
   script:
-    - apk add --no-cache git bash
-    - go install github.com/gohugoio/hugo@latest
-    - export PATH=$PATH:$(go env GOPATH)/bin
-    - hugo mod get -u ./...
-    - hugo mod tidy
-    - hugo --minify
+    - hugo --minify --buildDrafts
   artifacts:
     paths:
       - public
