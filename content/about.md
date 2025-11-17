@@ -4,6 +4,10 @@ description: "A brief overview of my background, experience, and interests."
 layout: page
 showTitle: true
 showDate: false
+showAuthor: true
+authors:
+  - "niklas"
+showAuthorsBadges : false 
 ---
 
 ## Hi, I'm Niklas!
