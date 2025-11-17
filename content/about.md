@@ -7,7 +7,8 @@ showDate: false
 showAuthor: true
 authors:
   - "niklas"
-showAuthorsBadges : false 
+showAuthorsBadges : false
+showBreadcrumbs: true
 ---
 
 ## Hi, I'm Niklas!
