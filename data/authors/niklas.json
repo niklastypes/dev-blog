@@ -1,0 +1,12 @@
+{
+    "name": "Niklas Baier",
+    "image": "img/niklas.jpeg",
+    "headline": "AI Engineer",
+    "bio": "Hi! I'm Niklas. Nice to meet you!",
+    "social": [
+      { "email": "mailto:baiern@proton.me" },
+      { "github": "https://github.com/niklasbaier" },
+      { "gitlab": "https://gitlab.com/niklasbaier" },
+      { "linkedin": "https://www.linkedin.com/in/niklasbaier/" }
+    ]
+}

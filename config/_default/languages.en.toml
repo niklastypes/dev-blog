@@ -13,15 +13,3 @@ dateFormat = "2 January 2006"
 # secondaryLogo = "img/secondary-logo.png"
 # description = "My awesome website"
 # copyright = "Copy, _right?_ :thinking_face:"
-
-[params.author]
-  name = "Niklas Baier"
-  image = "img/author.jpeg"
-  headline = "AI Engineer"
-  bio = "Hi! I'm Niklas. Nice to meet you!"
-  links = [
-    { email = "mailto:baiern@proton.me" },
-    { github = "https://github.com/niklasbaier" },
-    { gitlab = "https://gitlab.com/niklasbaier" },
-    { linkedin = "https://www.linkedin.com/in/niklasbaier/" },
-  ]
