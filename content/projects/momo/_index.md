@@ -5,7 +5,6 @@ layout: list
 showTitle: true
 showDate: false
 showAuthor: false
-showBreadcrumbs: true
 ---
 
 Join me as I try to build a personalized agentic digital being with a simulated life: **Momo (もも)**
