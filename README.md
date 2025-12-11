@@ -3,20 +3,28 @@
 Static personal website using [Hugo](https://gohugo.io/) and the [Blowfish](https://github.com/nunocoracao/blowfish) theme.
 Deployed via GitLab pages to https://niklasbaier.gitlab.io/.
 
-Run locally via
-
-```bash
-hugo server
-```
-
-and view on http://localhost:1313/.
-
 ## Requirements
 
 To run the web server:
 ```bash
 brew install hugo
 ```
+
+## Setup
+
+As this project is using Blowfish as a git submodule, run the following once:
+
+```bash
+git submodule update --init --recursive
+```
+
+Then, start up the web server locally via
+
+```bash
+hugo server
+```
+
+and view on http://localhost:1313/.
 
 ## Color scheme
 
