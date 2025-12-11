@@ -2,7 +2,7 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Dev Blog"
+title = "Niklas' Dev Blog"
 
 [params]
 displayName = "EN"
@@ -12,4 +12,4 @@ dateFormat = "2 January 2006"
 # logo = "img/blowfish_logo_transparent.png"
 # secondaryLogo = "img/secondary-logo.png"
 description = "A place for me to share my coding adventures and other tech ramblings."
-# copyright = "Copy, _right?_ :thinking_face:"
+copyright = "© Niklas Baier"
