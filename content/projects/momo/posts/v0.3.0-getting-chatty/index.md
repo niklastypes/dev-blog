@@ -56,7 +56,7 @@ I'm using `dotenv` to read in environment variables during runtime, such as e.g.
 
 As to be expected, Momo's first answers were *erratic*.
 
-For one, the **system prompt** (if you can even call it that) is extremely basic and provides no direction on how to respond in a certain character, tonality, etc. On the other side, the default **temperature** used by the `pydantic_ai` agent must have been quite high, as exactly the same prompts resulted in starkly varying responses. In case you don't know, the temperature is just a way of tweaking the likelihood that "more exotic" tokens are chosen next.
+For one, the **system prompt** (if you can even call it that) is extremely basic and provides no direction on how to respond in a certain character, tonality, etc. On the other side, the default **temperature** used by the `pydantic-ai` agent must have been quite high, as exactly the same prompts resulted in starkly varying responses. In case you don't know, the temperature is just a way of tweaking the likelihood that "more exotic" tokens are chosen next.
 
 While some *creativity* can be helpful in crafting unique and interesting responses, **I want Momo to follow a certain set of character guidelines and not change personality & tone with every prompt**. I will tackle a much more structured and controllable way of achieving this kind of response variety / character personality in the next release, though!
 
