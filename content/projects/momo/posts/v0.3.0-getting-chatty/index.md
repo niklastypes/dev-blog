@@ -1,7 +1,7 @@
 ---
-title: v0.3.0
+title: v0.3.0 - Getting Chatty
 date: 2026-01-20
-draft: true
+draft: false
 description: Release notes for Momo v0.3.0 from Niklas' perspective.
 tags: [momo]
 authors:
