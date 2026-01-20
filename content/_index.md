@@ -8,6 +8,14 @@ description: "A place for me to share my coding adventures and other tech rambli
 ![](img/niklas.png)
 {style="width:30%; margin-left:auto; margin-right:auto;"}
 
-Yo! My name is **Niklas**. I am deeply in love with computers, robots and science fiction (mostly the Cyberpunk genre). Professionally, I'm an AI Engineer working on large-scale LLM projects.
+## Yo! I'm **Niklas**,
+your (maybe not so) average internet tech nerd
 
-With this dev blog, I want to share my learnings and coding adventures. So, feel free to look around and make yourselves at home!
+{{< lead >}}
+Inspired by science fiction. Building the future with AI.
+{{< /lead >}}
+
+Professionally, I'm an **AI Engineer** working on large-scale LLM projects.
+With this dev blog, I want to share my **learnings** and **coding adventures**. 
+
+So, feel free to look around and make yourselves at home!
