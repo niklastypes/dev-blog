@@ -3,19 +3,18 @@ title: "Welcome to my Dev Blog! :tada:"
 description: "A place for me to share my coding adventures and other tech ramblings."
 ---
 
-### Welcome to my corner of the internet!
-
 ![](img/niklas.png)
-{style="width:30%; margin-left:auto; margin-right:auto;"}
+{style="width:50%; margin-left:auto; margin-right:auto;"}
 
-## Hi, I'm **Niklas**.
+## Hi, I'm **Niklas**!
+
+`Terminal nerd. Mechanical Keyboards enjoyer. Self-hosting enthusiast.`
 
 {{< lead >}}
-Tinkering at the intersection of code and consciousness.
-Inspired by Science Fiction, Cyberpunk, and the quest for artificial life.  
+Fascinated by Artificial Intelligence, Humanoid Robotics and Virtual Reality.
+Inspired by Science Fiction, Cyberpunk, and the Quest for Digital Life.  
 {{< /lead >}}
 
-Professionally, I'm an **AI Engineer** working on large-scale LLM projects.
-With this dev blog, I want to share my **learnings** and **coding adventures**. 
+Professionally, I'm an **AI Engineer** working on internet-scale LLM projects.
 
-So, feel free to look around and make yourselves at home!
+With this blog, I want to share my **learnings** and **coding adventures** - so, feel free to look around and make yourselves at home!
