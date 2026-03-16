@@ -66,6 +66,8 @@ I am therefore ecstatic to be living through the current era and witnessing how 
     <img src="https://img.shields.io/badge/-Obsidian-7C3AED?logo=obsidian&logoColor=white&style=flat&style=flat"/>
 </div>
 
+Peripherals-wise, I'm currently rocking the [ZSA Moonlander](https://www.zsa.io/moonlander) as my ergonomic split keyboard of choice.
+
 ## Beyond the code
 
 Outside of work and coding projects, I like to immerse myself in creative hobbies such as video- & retrogames, tabletop role-playing games like Dungeons & Dragons, but also playing electric guitar and doing some strength training.
