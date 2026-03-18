@@ -50,3 +50,8 @@ The respective `img/featured/*.svg` assets have been adapted as well:
 #ade8f4 -> #e2d4ff
 #caf0f8 -> #f0e8ff
 ```
+
+## Comments
+
+Article comments are powered by [Giscus](https://giscus.app/), which uses GitHub Discussions (of the [`dev-blog-comments repo`](https://github.com/niklasbaier/dev-blog-comments)) as the backend.
+Comments are enabled globally via `article.showComments` in `config/_default/params.toml`, and the Giscus widget is configured in `layouts/partials/comments.html`.
