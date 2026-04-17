@@ -1,3 +1,6 @@
+# legacy as project & CI got moved to GitHub
+# kept as reference
+
 image: ubuntu:latest
 
 variables:
