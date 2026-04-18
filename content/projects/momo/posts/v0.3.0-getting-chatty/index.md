@@ -8,7 +8,7 @@ authors:
   - niklas
 ---
 
-After all the setup work of the [previous post](https://niklasbaier.gitlab.io/projects/momo/posts/v0.2.0-project-setup/), it was finally time to get my hands dirty with the *actual* development - so let's jump right in!
+After all the setup work of the [previous post](https://niklastypes.xyz/projects/momo/posts/v0.2.0-project-setup/), it was finally time to get my hands dirty with the *actual* development - so let's jump right in!
 
 As **Momo will be utilizing a local LLM**, i.e. specifically *not* sending any API requests to model providers such as OpenAI, Google or Anthropic, I needed a way to easily download & invoke an open-source model. Luckily, [ollama](https://ollama.com/) provides a slim CLI client to do just that.
 
@@ -79,7 +79,7 @@ The big advantage of using a proper logger over Python's built-in printing capab
 
 My logging framework of choice is [`structlog`](https://www.structlog.org/en/stable/) as it is using `dict`s as structured data formats to output information and comes with a set of sensible defaults out of the box. For now, all I'm logging, though, is the `MomoConfig` when starting a chat session.
 
-As mentioned in [my first blog post on Momo](https://niklasbaier.gitlab.io/projects/momo/posts/v0.1.0-building-momo/#the-way-ahead), I'm having big plans on integrating various **graphical clients** to interact with Momo, such as Discord, and maybe even WhatsApp or a dedicated web app. However, **the CLI will always feel most natural to me** and "closest" to Momo.
+As mentioned in [my first blog post on Momo](https://niklastypes.xyz/projects/momo/posts/v0.1.0-building-momo/#the-way-ahead), I'm having big plans on integrating various **graphical clients** to interact with Momo, such as Discord, and maybe even WhatsApp or a dedicated web app. However, **the CLI will always feel most natural to me** and "closest" to Momo.
 
 Hence, I'm using [`typer`](https://typer.tiangolo.com/) as [the FastAPI of CLIs](https://typer.tiangolo.com/#fastapi-of-clis) to set up a **terminal-first entrypoint to interacting with Momo**. Wait, isn't Pydantic AI also [the FastAPI of GenAI app & agent development](https://ai.pydantic.dev/)? It's all connected!
 

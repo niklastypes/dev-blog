@@ -1,7 +1,7 @@
-# niklasbaier.gitlab.io
+# Dev Blog
 
 Static personal website using [Hugo](https://gohugo.io/) and the [Blowfish](https://github.com/nunocoracao/blowfish) theme.
-Deployed via GitLab pages to https://niklasbaier.gitlab.io/.
+Deployed via GitHub pages to my custom domain https://niklastypes.xyz.
 
 ## Requirements
 
@@ -53,5 +53,5 @@ The respective `img/featured/*.svg` assets have been adapted as well:
 
 ## Comments
 
-Article comments are powered by [Giscus](https://giscus.app/), which uses GitHub Discussions (of the [`dev-blog-comments repo`](https://github.com/niklasbaier/dev-blog-comments)) as the backend.
+Article comments are powered by [Giscus](https://giscus.app/), which uses GitHub Discussions (of the [`dev-blog-comments repo`](https://github.com/niklastypes/dev-blog-comments)) as the backend.
 Comments are enabled globally via `article.showComments` in `config/_default/params.toml`, and the Giscus widget is configured in `layouts/partials/comments.html`.
