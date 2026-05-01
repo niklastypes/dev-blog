@@ -1,4 +1,4 @@
-# Dev Blog
+# ⌨️ Dev Blog
 
 Static personal website using [Hugo](https://gohugo.io/) and the [Blowfish](https://github.com/nunocoracao/blowfish) theme.
 Deployed via GitHub pages to my custom domain https://niklastypes.xyz.
